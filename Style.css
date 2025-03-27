@@ -1,0 +1,107 @@
+/* Responsive Design */
+
+/* Tablets (1000px and below) */
+
+
+body{
+    max-width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header line above the name of candidate  */
+.styled-line {
+    margin-top: 40px;
+    border : none;
+    width: 100%;  /* Full width */
+    height: 2px;  /* Thickness of the line */
+    background-color: black; /* Solid black center */
+    border-radius: 20px; /* Soft edges */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8); /* Fading effect */
+    margin: 10px 0; /* Space around the line */
+    margin-bottom: 40px;
+}
+  
+/*   ensures that every element inside the page follows the left margin    */
+/* * {
+    margin-left: 80px;
+    margin-right: 100px;
+} */
+
+
+/* Style for Candidate Name */
+.Sub-heading h1{
+    margin-top: 14px;
+    font-size: 20px;   /* Large Text */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* Style for sub-heading like Designation, Skills, Education, Experience */
+.Sub-heading2{
+    margin-top: 2px;
+    font-size: 16px;
+    color: green; /*Color of font on Sub-headings */
+    font-weight: bold;
+    margin: bottom 20px;
+}
+
+.Calendar{
+    line-gap-override: 4px;
+    font-size: 12px;
+    color: Black
+    }
+
+/* Style for details of School name, company name */
+.Sub-heading3{
+    line-height: 1.2;
+    font-size: 14px;
+    font-style: italic;
+    color: blue; /*Color of font on Sub-headings */
+    margin-bottom: 0px;
+}
+
+
+/* A4 Page layout */
+
+.a4-page {
+    width: 130mm ; /* A4 width */
+    height: auto; /* A4 height */
+    margin: 20px auto; /* Center the page */
+    padding: 40px 120px 30px;
+    border: 6px solid black; /* Border around the A4 sheet */
+    /* display: flex;  */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6); /* Fading effect */
+    flex-direction: column;
+   /* align-items: center; /* Center align content */
+    /*justify-content: center; /* Middle of the page */
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+
+
+/* Style for the other details */
+.Sub-heading p {
+    margin-top: 2px;
+    line-height: 1;
+    font-size: 6px;
+    margin: 2px 0; /* 2 pixels of space above and below the element; 0 for "no extra space on the sides" */
+    margin-bottom: 40px;
+}
+
+
+/* Styling hyperlinks on the page */
+a {
+    color: #088ceb;  /* Choose any color */
+    text-decoration: none; /* Optional: removes underline */
+}
+
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    color: #088ceb;  /* Same color for all states */
+    text-decoration: none; /* Optional */
+}
+
